@@ -1,0 +1,446 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: nunito;
+}
+body{
+  padding: 0px;
+  margin: 0px;
+}
+html, body{
+ width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+}
+    
+.navbar .container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 80px;
+  background-color: #0093AB;
+  height: 56px;
+  position: fixed;
+}
+    
+a{
+  color: #ffffff;
+  text-decoration: dotted;
+  font-weight: bold; 
+  transition: .3s ease-in;       
+}
+
+a:hover{
+  color: #254746;
+  opacity: 0.5;
+}
+    
+.home{
+  font-size: 28px;
+}
+    
+.nav-link {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  padding: 4px;
+}
+.icon{
+  display: none;
+}
+.first{
+  display: flex;
+  padding: 160px 80px 50px 120px;
+  height: fit-content;
+  width: 100%;
+  justify-content: space-between;
+}
+.first1 h1 {
+  color: #0093AB;
+  font-size: 45px;
+  padding-bottom: 15px;
+}
+.first1 {
+  padding-top: 0;
+  width: 45%;
+}
+.first1 p{
+  font-size: 22px;
+  padding-bottom: 25px;
+}
+
+.first2{
+  width: 50%;
+}
+
+.avatar1{
+  padding-left: 15px;
+}
+
+.second{
+  padding: 100px 120px 50px 120px;
+  background-color: #ebeceb;
+  height: fit-content;
+}
+
+.second1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.second1 h1{
+  color: #0093AB;
+  font-size: 35px;
+  width: 350px;
+}
+
+.second1 h3{
+  background-color: #0093AB;
+  border-radius: 7px;
+  color: #ffffff;
+  width: 130px;
+  text-align: center;
+  height: 38px;
+  padding: 5px;
+  box-shadow: 1px 1px 30px rgb(0 0 0/ 30%);
+  transition: .3s ease-in;
+}
+
+.second1 h3:hover{
+  background-color: #ebeceb;
+  box-shadow: 1px 1px 50px rgb(0 0 0 / 30%);
+  color: #0093AB;
+}
+
+.box-second2 {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  width: 100%;
+}
+
+.box{
+  width: 28%;
+}
+
+#boxing img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.third {
+  background-color: #0093AB;
+  padding: 0 120px 0 120px;
+}
+.avatar{
+  display: flex;
+  padding-left: 920px;
+  width: 100%;
+
+}
+
+#avatar8_1 img{
+  width: 77px; 
+  height: 48px;
+  
+}
+
+#avatar8_2 img {
+  width: 77px; 
+  height: 48px;
+  
+}
+
+.third{
+  width: 100%;
+}
+
+.third1{
+  display: flex;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  width: 100%;
+}
+.third1_1{
+  color: #ffffff;
+  width: 500px;
+  font-size: 20px;
+  width: 50%;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  margin-left: 80px;
+}
+
+.third1_2{
+  background-color: #ffffff;
+  height: 38px;
+  width: 40%;
+  text-align: center;
+  padding: 7px;
+  border-radius: 7px;
+  color: #0093AB; 
+  margin-top: 35px;
+  margin-left: 150px;
+  margin-right: 20px;
+  box-shadow: 1px 1px 30px rgb(0 0 0 /25%); 
+} 
+
+.third1_2:hover{
+  background-color: #2a3f3e;
+  opacity: 0.7;
+  box-shadow: 1px 1px 50px rgb(0 0 0 / 30%);
+  color: #ffffff;
+}
+
+.third1_3{
+  height: 38px;
+  width: 40%;
+  text-align: center;
+  padding: 7px;
+  border-radius: 7px;
+  margin-top: 35px;
+  background-color:  #02596ed7;
+  color: #ffffff;
+  box-shadow: 1px 1px 30px rgb(0 0 0 /25%);
+}
+
+.third1_3:hover{
+  background-color: #2a3f3e;
+  opacity: 0.7;
+  box-shadow: 1px 1px 50px rgb(0 0 0 / 30%);
+  color: #0093AB;
+}
+.avatar9{
+  display: flex;
+  padding: o;
+  margin-bottom: 0;
+  height: 45px;
+}
+#avatar9_1 img{
+  height: 45px;
+  width: 77px;
+  margin: 0;
+  padding: 0;
+}
+#avatar9_2 img{
+  height: 45px;
+  width: 77px;
+  margin: 0;
+  padding: 0;
+}
+
+.ending .end {
+  background-color: rgba(2, 115, 134, 0.856);
+  color: #ffffff;
+  text-align: center;
+  height: 300px;
+}
+
+.ending .end h3 {
+ padding-top: 50px;
+ padding-bottom: 20px;
+}
+
+.ending .end h2 {
+  margin-bottom: 30px;
+}
+
+.fa {
+  width: 17px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border:#ffffff;
+  font-size: 0;
+}
+
+.fa:hover {
+  opacity: 0.5;
+}
+
+.fa-linkedin {
+  font-size: 8px;
+  padding: 1px;
+  background: #1CD6CE; 
+  color: teal; 
+  margin-right: 20px;
+  border-radius: 2px; 
+}
+
+.fa-facebook {
+  font-size: 8px;
+  padding-top: 3px;
+  padding-left: 1px;
+  padding-right: 1px;
+  background: #1CD6CE; 
+  color: teal;  
+  margin-right: 20px;
+  border-radius: 2px;
+}
+
+.fa-twitter {
+  width: 18px;
+  height: 19.5px;
+  font-size: 6px;
+  padding: 3px 3px 1px 3px;
+  font-size: 8px;
+  background: #1CD6CE; 
+  color: teal;
+  margin-right: 15px;
+  border-radius: 2px;  
+}
+
+.fa-instagram {
+  color: #1CD6CE;
+  margin: 0;
+  padding-bottom: 4px;  
+} 
+
+.ending .end p {
+  padding-top: 50px;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1024px){
+  .avatar1 {
+    width: 100%;
+  }
+  .third1_2{
+    margin-left: 160px;
+  }
+  .avatar{
+    padding-left: 620px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .third1_1 h2{
+    font-size: 20px;
+  }
+  .third{
+    padding: 0 70px 0 70px;
+  }
+  .third1_2{
+    margin-left: 70px;
+    width: fit-content;
+  }
+  .buttons{
+    margin-left: 0;
+    width: 50%;
+  }
+  .third1_2 h4{
+    font-size: 17.5px;
+  }
+  .third1_3 h4{
+    font-size: 16.5px;
+  }
+  .avatar{
+    padding-left: 450px;
+  }
+}
+@media screen and (max-width: 414px){
+  .nav-link a{
+    display: none;
+  }
+
+  .navbar .container{
+    padding: 7px 50px;
+  }
+  .container a.icon {
+    float: right;
+    display: block;
+  }
+  .nav-link{
+    width: 0;
+  }
+  .first{
+    padding: 100px 40px 70px 40px;
+    display: block;
+  }
+  .first1{
+    width: 100%;
+  }
+  .avatar1 {
+    padding-left: 0;
+    text-align: center;
+  }
+  .first2{
+    width: 100%;
+    padding-top: 50px;
+  }
+  .second{
+    padding: 40px 40px 40px 40px;
+  }
+  .second1 {
+    display: block;
+  }
+  .second1 h1{
+    font-size: 20px;
+    width: 200px;
+  }
+  .second1  h3{
+    font-size: 12px;
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .box-second2{
+    display: block;
+    justify-content: center;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .box{
+    width: 100%;
+  }
+  
+  #boxing img{
+    padding-bottom: 30px;
+  }
+  .third{
+    padding: 0 20px 0 20px;
+  }
+
+  .third1_1 h2{
+    font-size: 20px;
+  }
+  .third1 {
+    display: block;
+    padding-top: 25px;
+  }
+  .third1_1{
+    width: 100%;
+  }
+  .third1_2{
+    margin: 0;
+    width: 45%;
+  }
+  .third1_3{
+    margin: 0;
+    width: 45%;
+  }
+
+  .buttons{
+    width: 100%;
+    margin: 50px 0 50px;
+  }
+  .avatar{
+    display: none;
+  }
+ 
+  .avatar9{
+    display: none;
+  }
+}
